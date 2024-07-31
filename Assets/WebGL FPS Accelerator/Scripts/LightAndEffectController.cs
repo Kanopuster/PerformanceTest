@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MapGenerator : MonoBehaviour
+public class LightAndEffectController : MonoBehaviour
 {
     public GameObject prefab; // Привяжите ваш префаб сюда
     public Button destroyButton; // Привяжите вашу кнопку для удаления сюда
