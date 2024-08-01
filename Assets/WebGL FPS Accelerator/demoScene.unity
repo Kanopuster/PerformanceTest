@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641448, b: 0.5748194, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641377, b: 0.57481855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -734,13 +734,81 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2118964938000329839, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: directionalLight
+      value: 
+      objectReference: {fileID: 5297557173846471103}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 198.3113
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 128.08447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183219541323870299, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 101.16
+      objectReference: {fileID: 0}
     - target: {fileID: 3561455357286913988, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
       propertyPath: m_Name
       value: webglFpsAcceleratorPrefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725400814138513168, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 4289653276188531755, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605510861208057667, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605510861208057667, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605510861208057667, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 6356242176073592652, guid: 1e065a53f6acd874f9ce89ac431dc1fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -930,8 +998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 26.3}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchoredPosition: {x: 0, y: 26.300293}
+  m_SizeDelta: {x: 159.9949, y: 19.9994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192068345
 MonoBehaviour:
@@ -1013,7 +1081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1524299295
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1507,10 +1575,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OK
-  textDPI: 1
-  wfaDPI: 1
-  lastWfaDPI: 1
-  lastPixelsPerUnit: 1
 --- !u!222 &1885020266
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1618,10 +1682,6 @@ MonoBehaviour:
 
     (
     Please install from Package Manager )'
-  textDPI: 1
-  wfaDPI: 1
-  lastWfaDPI: 1
-  lastPixelsPerUnit: 1
 --- !u!222 &1905784297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1701,10 +1761,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Windmill Count
-  textDPI: 1
-  wfaDPI: 1
-  lastWfaDPI: 1
-  lastPixelsPerUnit: 1
 --- !u!222 &1941530222955550719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1817,10 +1873,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '!!! BUILD THIS SCENE FOR TEST !!!'
-  textDPI: 1
-  wfaDPI: 1
-  lastWfaDPI: 1
-  lastPixelsPerUnit: 1
 --- !u!224 &3918455107528570638
 RectTransform:
   m_ObjectHideFlags: 0
