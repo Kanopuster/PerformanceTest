@@ -9,8 +9,8 @@ namespace WFA
   {
     private float spacing = 21f;
 
-    [HideInInspector]
-    public GameObject prefab;
+    
+    public GameObject prefabSpawn;
 
     [HideInInspector]
     public int size_x = 7;
@@ -59,7 +59,7 @@ namespace WFA
         {
           pos.z = z * spacing;
 
-          GameObject go = Instantiate(prefab);
+          GameObject go = Instantiate(prefabSpawn);
           go.transform.position = pos;
           go.transform.parent = parent;
 
