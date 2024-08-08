@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/WebGL FPS Accelerator/demoScene.unity
+    guid: 06d6dd3e951234d4492313998c629c1f
   m_configObjects: {}
