@@ -54,6 +54,8 @@ namespace WFA
             prefabList.Clear();
 
             Vector3 pos = Vector3.zero;
+            Quaternion rotation = Quaternion.Euler(0, -180, 0); 
+
 
             for (int x = 0; x < size_x; x++)
             {
@@ -65,6 +67,7 @@ namespace WFA
 
                     GameObject go = Instantiate(prefabSpawn);
                     go.transform.position = pos;
+                    go.transform.rotation = rotation;
                     go.transform.parent = parent;
 
                     prefabList.Add(go);

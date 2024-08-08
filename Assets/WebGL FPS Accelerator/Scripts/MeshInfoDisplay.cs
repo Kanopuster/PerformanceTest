@@ -28,6 +28,9 @@ public class MeshInfoDisplay : MonoBehaviour
         }
 
         verticesText.text = "Vertices: " + totalVertices;
-        trisText.text = "Triangles: " + totalTriangles;
+        if (trisText != null)
+        { 
+            trisText.text = "Triangles: " + totalTriangles;
+        }
     }
 }
